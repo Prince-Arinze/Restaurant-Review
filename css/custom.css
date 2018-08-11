@@ -179,6 +179,9 @@ nav h1 a {
   flex-direction: column;
   align-content: center;
 }
+#restaurants-list li:hover {
+  transform: scale(1.1);
+}
 #restaurants-list .restaurant-img {
   background-color: #ccc;
   display: block;
@@ -190,7 +193,9 @@ nav h1 a {
   margin: 0 20px;
   height: 150px;
 }
-
+#restaurants-list li h1 {
+  color: #d85b5b !important;
+}
 #restaurants-list li h2 {
   color: #ab1a1a;
   font-family: Arial,sans-serif;
@@ -296,6 +301,9 @@ nav h1 a {
   margin: 0 0 30px;
   padding: 10px 20px 16px;
   position: relative;
+}
+#reviews-list li:hover {
+  transform: scale(1.1)
 }
 #reviews-list li p {
   margin: 0 0 10px;
