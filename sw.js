@@ -6,7 +6,7 @@ let cacheFiles = [
   './',
   './index.html',
   // '/restaurant.html',
-  './css/styles.css',
+  './css/custom.css',
   './js/dbhelper.js',
   './js/register_sw.js',
   './js/main.js',
