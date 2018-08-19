@@ -1,14 +1,14 @@
 {
 
-  "author": "Prince Arinze",
+  "author": "Prince Arinzechukwu",
   "background_color": "#ffffff",
   "description": "A Restaurant Review App",
   "display": "standalone",
   "manifest_version": 1,
   "name": "Restaurant Review",
   "orientation": "portrait",
-  "short_name": "Cypher Convert",
-  "start_url": "https://Prince-Arinze.github.io/Restaurant-Review/index.html",
+  "short_name": "Cypher Review Check",
+  "start_url": "https://Prince-Arinze.github.io/Restaurant-Review",
   "theme_color": "#000000",
   "version": "0.1.0"
 
