@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +8,7 @@
   <!-- Meta For Sharing -->
   <meta property="og:title" content="A Restaurant Review App">
   <meta property="og:description" content="A Restaurant Review App">
-  <meta property="og:url" content="https://Prince-Arinze.github.io/Restaurant-Review/index.html">
+  <meta property="og:url" content="https://Prince-Arinze.github.io/Restaurant-Review">
   <link rel="stylesheet" href="css/custom.css">
   <link href='https://api.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin=""/>
@@ -20,7 +19,7 @@
 <body>
  <header role="banner">
     <nav>
-      <h1><a href="/">Restaurant Reviews</a></h1>
+      <h1><a href="/" tabindex="1">Restaurant Reviews</a></h1>
     </nav>
   </header>
 
@@ -32,11 +31,11 @@
       <div class="filter-options">
         <h2 id="filter-label">Filter Results</h2>
         <label for="neighborhoods-select">Neighborhoods Filter</label>
-        <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
+        <select id="neighborhoods-select" name="neighborhoods" tabindex="2" onchange="updateRestaurants()">
           <option value="all">All Neighborhoods</option>
         </select>
         <label for="cuisines-select">Cuisines Filter</label>
-        <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
+        <select id="cuisines-select" name="cuisines" tabindex="3" onchange="updateRestaurants()">
           <option value="all">All Cuisines</option>
         </select>
       </div>
@@ -51,7 +50,7 @@
 
 
   <footer id="footer">
-    Copyright (c) 2018 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
+    Copyright (c) 2018 <a href="/" tabindex="4"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
   </footer>
 
 </body>
