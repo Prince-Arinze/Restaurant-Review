@@ -30,4 +30,4 @@ Most of the code in this project has been written to the ES6 JavaScript specific
 
 ### Link to the gkithub page of the application
 
-[https://Prince-Arinze.github.io/Restaurant-Review/index.html](https://Prince-Arinze.github.io/Restaurant-Review/index.html)
+[https://Prince-Arinze.github.io/Restaurant-Review](https://Prince-Arinze.github.io/Restaurant-Review)
