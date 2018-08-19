@@ -5,7 +5,7 @@ const staticCacheName = 'restaurant-static-01';
 let cacheFiles = [
   './',
   './index.html',
-  // '/restaurant.html',
+  './restaurant.html',
   './css/custom.css',
   './js/dbhelper.js',
   './js/register_sw.js',
